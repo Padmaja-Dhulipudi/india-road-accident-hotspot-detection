@@ -55,6 +55,49 @@ india-road-accident-hotspot-detection/
 6. Interactive map visualization
 7. Results and insights
 
+## Results and Observations
+
+DBSCAN clustering was performed independently for eight Indian cities using the Haversine distance metric.
+
+**Model parameters:**
+- Algorithm: DBSCAN
+- Epsilon: 1.0 km
+- Minimum Samples: 5
+- Distance Metric: Haversine
+
+### City-wise Results
+
+| City | Number of Clusters | Noise Percentage |
+|---|---:|---:|
+| Bangalore | 129 | 18.91% |
+| Chandigarh | 1 | 0.00% |
+| Chennai | 1 | 0.54% |
+| Delhi | 168 | 41.88% |
+| Hyderabad | 123 | 19.47% |
+| Kolkata | 4 | 0.78% |
+| Mumbai | 93 | 12.60% |
+| Pune | 7 | 1.11% |
+
+### Key Findings
+
+- Delhi produced the highest number of clusters (168).
+- Bangalore and Hyderabad also showed a relatively high number of clusters.
+- Chandigarh produced one cluster with no noise records.
+- The number of clusters varied considerably across cities.
+- DBSCAN classified records that did not meet the density requirements as noise.
+
+### Limitations
+
+- The dataset's real-world provenance and accuracy have not been independently verified.
+- Results should be interpreted as exploratory clustering of the supplied records, not confirmed real-world accident hotspots.
+- DBSCAN results depend heavily on the selected epsilon and minimum-samples parameters.
+- A single parameter combination may not be equally suitable for every city.
+- Noise points are not necessarily errors or unimportant records.
+
+### Conclusion
+
+This project demonstrates how DBSCAN can be applied to geographical accident-record data using the Haversine distance metric. The city-wise analysis shows how density-based clustering identifies spatial groups and noise points. It also demonstrates practical applications of data mining, geographic data processing, and visualization using Python.
+
 ##  Future Enhancements
 
 - City-wise hotspot analysis
