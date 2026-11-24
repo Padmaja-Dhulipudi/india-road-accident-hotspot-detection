@@ -105,7 +105,3 @@ This project demonstrates how DBSCAN can be applied to geographical accident-rec
 - Time-based accident pattern analysis
 - Interactive Streamlit dashboard
 
-## Project Status
-
-Currently under development.
-
