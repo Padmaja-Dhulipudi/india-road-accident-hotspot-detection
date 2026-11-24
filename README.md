@@ -98,6 +98,11 @@ DBSCAN clustering was performed independently for eight Indian cities using the 
 
 This project demonstrates how DBSCAN can be applied to geographical accident-record data using the Haversine distance metric. The city-wise analysis shows how density-based clustering identifies spatial groups and noise points. It also demonstrates practical applications of data mining, geographic data processing, and visualization using Python.
 
+## Project Notebook
+
+Explore the complete implementation, including data preprocessing, exploratory data analysis, DBSCAN clustering, parameter tuning, and visualizations.
+
+[View Complete Jupyter Notebook](notebooks/road_accident_hotspot_analysis.ipynb)
 ##  Future Enhancements
 
 - City-wise hotspot analysis
