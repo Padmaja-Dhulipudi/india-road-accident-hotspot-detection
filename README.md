@@ -115,7 +115,7 @@ Explore the complete implementation, including data preprocessing, exploratory d
 
 ### City-wise Clustering Summary
 
-[View Clustering Summary CSV](outputs/city_hotspot_summary(1).csv)
+[View Clustering Summary CSV](outputs/city_hotspot_summary (1).csv)
 ##  Future Enhancements
 
 - City-wise hotspot analysis
