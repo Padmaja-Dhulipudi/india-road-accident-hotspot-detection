@@ -102,7 +102,7 @@ This project demonstrates how DBSCAN can be applied to geographical accident-rec
 
 Explore the complete implementation, including data preprocessing, exploratory data analysis, DBSCAN clustering, parameter tuning, and visualizations.
 
-[View Complete Jupyter Notebook](notebooks/road_accident_hotspot_analysis.ipynb)
+[View Complete Jupyter Notebook](notebooks/indian_hotspots.ipynb)
 ## Project Visualizations
 
 ### DBSCAN Clusters by City
